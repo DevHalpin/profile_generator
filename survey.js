@@ -5,14 +5,6 @@ const rl = readline.createInterface({
   output: process.stdout
 });
 
-// rl.question("What's an activity you like doing? ", (answer1) => {
-//   // TODO: Log the answer in a database
-//   console.log(`Thank you for your valuable feedback: ${answer1}`);
-//   rl.question("What's an activity you like doing? "), (answer2) => {
-//     console.log(`Thank you for your valuable feedback: ${answer2}`);
-//     rl.close()
-//   };
-// });
 const info = {};
 
 rl.question("What's your name? Nicknames are also acceptable : ", (args) => {
